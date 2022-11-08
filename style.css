@@ -1,0 +1,81 @@
+#transition12{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(58, 235, 52);
+    transition:width 2s , hight 2s ;
+transition-timing-function: ease-in-out;
+
+}
+#transition12:hover{
+
+    width: 200px;
+    height: 200px;
+}
+
+#container00{
+    display: flex;
+    justify-content: space-around;
+}
+
+.transformatiion13{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+
+
+
+}
+.transformatiion13:hover{
+    transform: rotate(145deg);
+    
+}
+
+.transformatiion14{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(197, 185, 13);
+transition-duration: 2s;
+}
+.transformatiion14:hover{
+    transform: rotate(-135deg);
+    
+}
+
+
+#gridcontainer{
+    width: 100%;
+display: grid;
+grid-template-columns:40% 25% 25%;
+grid-template-rows: 100% 100% 100%;
+grid-gap: 20px 20px;
+justify-content: center;
+
+    
+}
+
+.grid-item1{
+    text-align: center;
+    background-color: blueviolet;
+grid-column: 1/4;
+}
+.grid-item2{
+    text-align: center;
+    background-color: blue;
+    grid-column: 1/2;
+}
+.grid-item3{
+    text-align: center;
+    background-color: rgb(43, 173, 10);
+    grid-column: 2/3;
+}
+.grid-item4{
+    text-align: center;
+    background-color: rgb(255, 0, 34);
+    grid-column: 3/4;
+}
+.grid-item5{
+    text-align: center;
+    background-color: rgb(11, 128, 163);
+    grid-column: 1/4;
+}
